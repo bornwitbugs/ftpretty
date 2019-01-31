@@ -5,8 +5,8 @@ from setuptools import setup
 __version__ = '0.2.8'
 
 
-def read(*paths):
-    with open(*paths, 'r') as f:
+def read(paths):
+    with open(paths, 'r') as f:
         return f.read()
 
 
